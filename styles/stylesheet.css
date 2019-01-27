@@ -23,7 +23,7 @@ body {
   background-color: dodgerblue;
 }
 
-.class project-figure {
+figure.project-figure {
   width: 150px;
   float: right;
   text-align: center;
@@ -33,5 +33,4 @@ body {
   border-width: 2px;
   padding: 0.4em;
   margin: 0.4em;
-
 }
