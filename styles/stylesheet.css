@@ -24,13 +24,16 @@ body {
 }
 
 figure.project-figure {
-  width: 150px;
   float: right;
   text-align: center;
   font-style: italic;
   border-color: CadetBlue;
-  border-style: double;
-  border-width: 2px;
+  border-style: dashed;
+  border-width: 1px;
   padding: 0.4em;
   margin: 0.4em;
+}
+
+img.project-image {
+  width: 100px
 }
