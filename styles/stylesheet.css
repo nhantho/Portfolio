@@ -1,39 +1,73 @@
 h1 {
-  color: purple;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+  color: #004E64;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h2 {
-  color: red;
-  font-family: Tahoma, Geneva, sans-serif
+  color: #F6AE2D;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 h3 {
-  color: blue;
-  font-family: "Lucida Console", Monaco, monospace
+  color: #0F7173;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
+h3.nav-h3 {
+  color: #FFFFFA;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #004E64;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h4.footer-h4 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 12px;
+  color: #FFFFFA;
+}
+
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2017/03/17/18/03/bokeh-2152298_960_720.jpg");
+  padding: 2px;
+  padding-left:10px;
+}
+
+nav {
+  background-color: #808782;
+  padding: 2px;
+  padding-left:10px;
+}
 
 p {
-  color: green;
-  font-family: Arial, Helvetica, sans-serif
+  color: #3A405A;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: dodgerblue;
+  background-color: #FFFFFA;
 }
 
 figure.project-figure {
-  float: right;
+  width: 300px;
   text-align: center;
   font-style: italic;
-  border-color: CadetBlue;
+  border-color: #0F7173;
   border-style: dashed;
   border-width: 1px;
+  border-radius: 5px;
   padding: 0.4em;
   margin: 0.4em;
 }
 
 img.project-image {
-  width: 100px
+  width: 100px;
+}
+
+footer {
+  background-color: #004E64;
+  padding: 10px;
+  padding-left:10px;
 }
