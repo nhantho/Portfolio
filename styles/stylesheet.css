@@ -1,11 +1,12 @@
 h1 {
   color: #004E64;
   font-family: 'Playfair Display', serif;
+  font-weight: lighter;
 }
 
 h2 {
   color: #F6AE2D;
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: 'Playfair Display', serif;
 }
 
 h3 {
@@ -28,7 +29,8 @@ h4 {
 }
 
 h4.footer-h4 {
-  font-family: "Lucida Console", Monaco, monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
   font-size: 12px;
   color: #FFFFFA;
 }
