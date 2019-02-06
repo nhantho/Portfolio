@@ -1,6 +1,6 @@
 h1 {
   color: #004E64;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
@@ -10,7 +10,7 @@ h2 {
 
 h3 {
   color: #0F7173;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a:visited {
@@ -24,7 +24,7 @@ h3.nav-h3 {
 
 h4 {
   color: #004E64;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h4.footer-h4 {
@@ -47,7 +47,7 @@ nav {
 
 p {
   color: #36454f;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
