@@ -2,7 +2,16 @@ h1 {
   color: #004E64;
   font-family: 'Playfair Display', serif;
   font-weight: lighter;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  transition-property: font-size;
+  transition-timing-function: ease-in-out;
 }
+
+h1:hover {
+  font-size: 50px;
+}
+
 
 h2 {
   color: #F6AE2D;
@@ -98,6 +107,7 @@ section.main-section {
 
 div.box:hover {
   border-width: 1px;
+  box-shadow: 4px 4px 4px lightgray;
 }
 
 div.box {
@@ -111,9 +121,11 @@ div.box {
   border-width: 10px;
   background-color: white;
   overflow: hidden;
-  transition: border 0.5s ease-in 0.5s;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  transition-property: border, box-shadow;
+  transition-timing-function: ease-in;
 }
-
 
 .container {
   display: flex;
@@ -122,4 +134,21 @@ div.box {
   justify-content: flex-start;
   align-items: center;
   padding-bottom: 2em;
+}
+
+article:hover {
+  background-color: white;
+}
+
+article {
+  background-color: inherit;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 1em 1em 1em 1em;
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
 }
