@@ -14,13 +14,30 @@ h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a.one:link {
+  color:#004E64;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  background-color: #004E64;
+  margin: 5px;
+}
+a.one:hover {
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  background-color: #F6AE2D;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+}
+a.one:visited {color:inherit;}
+
 a:visited {
   color: inherit;
-}
-
-h3.nav-h3 {
-  color: #FFFFFA;
-  text-transform: uppercase;
 }
 
 h4 {
@@ -43,7 +60,7 @@ header {
 
 nav {
   background-color: #004E64;
-  padding: 0.5em 4em 0.5em 5em;
+  padding: 1em 4em 1em 5em;
   margin: -1em -1em 0em -1em;
 }
 
