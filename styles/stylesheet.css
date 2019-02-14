@@ -95,7 +95,12 @@ section.main-section {
   margin: 0em 4em 0em 4em;
 }
 
-.box {
+
+div.box:hover {
+  border-width: 1px;
+}
+
+div.box {
   width: 300px;
   height: 375px;
   padding: 15px;
@@ -103,10 +108,12 @@ section.main-section {
   margin-right: 1em;
   border-color: #0F7173;
   border-style: double;
-  border-width: 4px;
+  border-width: 10px;
   background-color: white;
   overflow: hidden;
+  transition: border 0.5s ease-in 0.5s;
 }
+
 
 .container {
   display: flex;
