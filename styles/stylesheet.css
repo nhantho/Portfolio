@@ -31,7 +31,9 @@ section.main {
 
 div.box {
   padding: 1em 1em 1em 1em;
-  width: 14em;
+  width: 15em;
+  height: 25em;
+  overflow: hidden;
   margin-bottom: 1em;
   margin-right: 1em;
 }
@@ -112,10 +114,14 @@ figure.project-figure {
   color: #36454f;
 }
 
-a.one:link {
-  color:#FFFFFA;
+a:visited {
+  color: #F6AE2D;
+}
+
+a.one {
   text-transform: uppercase;
   text-decoration: none;
+
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
   background-color: #0F7173;
@@ -126,10 +132,11 @@ a.one:link {
   padding-right: 2em;
   line-height: 40pt;
 }
+
 a.one:hover {
-  color:#FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
+  color: #0F7173;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
   background-color: #F6AE2D;
@@ -139,12 +146,4 @@ a.one:hover {
   padding-left: 10px;
   padding-right: 2em;
   line-height: 40pt;
-}
-
-a.one:visited {
-  color:inherit;
-}
-
-a:visited {
-  color: inherit;
 }
