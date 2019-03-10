@@ -16,9 +16,17 @@ header {
 section.main {
   grid-column: 2 / span 11;
   padding: 1em 4em 1em 4em;
-  margin: -1em -1em 0em -1em;
+  background-color: #FFFFFA;
 }
 
+article.form {
+  border-width: medium;
+  border-style: solid;
+  width: 75%;
+  border-color: #0F7173;
+  padding: 1em 1em 1em 1em;
+  margin-bottom: 1em;
+}
 
 .flex-container {
   display: flex;
@@ -146,4 +154,109 @@ a.one:hover {
   padding-left: 10px;
   padding-right: 2em;
   line-height: 40pt;
+}
+
+button, input, select, label, textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 100%;
+  box-sizing: border-box;
+
+}
+
+input, textarea {
+  border-color: #36454f;
+  border-style: solid;
+  border-width: thin;
+  background-color: #FFFFFA;
+  display: block;
+}
+
+input:hover {
+  background-color: #FFFFFF;
+  border-color: #F6AE2D;
+  cursor: alias;
+}
+
+textarea:hover {
+  background-color: #FFFFFF;
+  border-color: #F6AE2D;
+  cursor: alias;
+}
+
+legend {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Hide the browser's default checkbox*/
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: alias;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: lightgray;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #F6AE2D;
+}
+
+.checkbox label {
+  display: inline-block;
+  position: relative;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-top: 10px;
+  cursor: alias;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+.radiobutton input {
+  position: absolute;
+  cursor: alias;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.radiomark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: lightgray;
+  border-radius: 50%;
+}
+
+.radiobutton {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 25px;
+  margin-top: 10px;
+  cursor: alias;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.radiobutton:hover input ~ .radiomark {
+  background-color: #F6AE2D;
+}
+
+.radiobutton input:checked ~ .radiomark {
+  background-color: #F6AE2D;
 }
