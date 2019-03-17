@@ -129,7 +129,6 @@ a:visited {
 a.one {
   text-transform: uppercase;
   text-decoration: none;
-
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
   background-color: #0F7173;
@@ -140,6 +139,7 @@ a.one {
   padding-right: 2em;
   line-height: 40pt;
 }
+
 
 a.one:hover {
   text-transform: uppercase;
@@ -154,6 +154,18 @@ a.one:hover {
   padding-left: 10px;
   padding-right: 2em;
   line-height: 40pt;
+}
+
+
+a.light {
+  color: #C98508;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: -20px -20px -20px -20px;
+  padding: 20px 20px 20px 20px;
+}
+
+a.light:visited {
+  color: #C98508;
 }
 
 button, input, select, label, textarea {
